@@ -1,0 +1,19 @@
+.container{
+  width: 100%;
+  padding-top: 1rem;
+  background-color: var(--background);
+  position: fixed;
+}
+
+.container .logo{
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.container .limited .nav-header ul{
+  display: flex;
+  gap: 2rem;
+  padding: .2rem;
+  color: gray;
+}
+

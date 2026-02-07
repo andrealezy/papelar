@@ -5,18 +5,42 @@
   --acent: #FBEEF3;
   --accent-foreground: 340 75% 45% #C91A63;
 
-  --background: 340 30% 99% #FDFCFC;
+  --background: #FDFCFC;
 
-  --foreground: 340 25% 15% #2D2228;
+  --foreground: #2D2228;
   /*h1 h2*/
-  --muted-foreground: 340 10% 40% #6E6268;
+  --muted-foreground: #6E6268;
   /*Subtítulo/Texto secundário	*/
-  --primary: 340 82% 52% #E8247A;
+  --primary: #E8247A;
   /*bg btn botão*/
-  --primary-foreground: 0 0% 100% #FFFFFF;
+  --primary-foreground:#FFFFFF;
   /*botão texto*/
-  --card: 0 0% 100% #FFFFFF;
+  --card:  #FFFFFF;
   /*card bg*/
-  --border: 340 30% 88% #E8DDE2
+  --border:  #E8DDE2;
     /*border*/
+  --max-width: 1200px;
+}
+
+.limited{
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+}
+
+.btndefault{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  padding: .5rem .8rem;
+  border-radius: .6rem;
 }
